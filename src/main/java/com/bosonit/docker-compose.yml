@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  mysql-batch:
+    image: mysql:latest
+    environment:
+      MYSQL_DATABASE: batch-project
+      MYSQL_ROOT_PASSWORD: 3v7DLt6Y
+    ports:
+      - "3306:3306"
